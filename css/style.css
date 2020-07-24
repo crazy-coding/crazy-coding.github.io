@@ -1444,7 +1444,7 @@ h3 {
 /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 80px;
+  font-size: 70px;
   text-transform: capitalize;
   font-weight: 300;
   line-height: 90px;
@@ -1505,9 +1505,14 @@ h3 {
 
 /* line 84, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .my_img {
-  position: absolute;
+  /* position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 20%; */
+  float: right;
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 4px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
