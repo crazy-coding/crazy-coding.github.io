@@ -183,7 +183,7 @@ $(document).ready(function () {
     });
 
     $('#cv_btn').click(function() {
-       window.open('https://github.com/crazy-coding/portfolio_dennischo/crazy-coding.github.io/blob/master/resume.pdf', '_blank');
+       window.open('https://github.com/crazy-coding/portfolio_dennischo/raw/master/resume.pdf', '_blank');
     });
 }); // document ready end 
 
