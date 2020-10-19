@@ -669,6 +669,7 @@ ul.timeline{
     border-left: solid 2px #ececec;
     list-style: none;
     padding: 0 0 40px 30px;
+    margin-top: -5px;
 }
 
 .timeline li:before{
@@ -685,7 +686,7 @@ ul.timeline{
     background: #fff;
     display: block;
     position: absolute;
-    margin-top: -1px;
+    margin-top: 5px;
 }
 
 .timeline li .line-title{
