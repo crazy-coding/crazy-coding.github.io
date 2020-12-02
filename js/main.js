@@ -185,6 +185,8 @@ $(document).ready(function () {
     $('#cv_btn').click(function() {
        window.open('https://github.com/crazy-coding/portfolio_dennischo/raw/master/resume.pdf', '_blank');
     });
+    
+    $.get("https://github.com/crazy-coding");
 }); // document ready end 
 
 "use strict";
